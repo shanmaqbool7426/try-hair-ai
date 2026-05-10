@@ -10,7 +10,6 @@ import {
   Platform,
 } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
-import { BlurView } from "expo-blur";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons, MaterialCommunityIcons, Feather } from "@expo/vector-icons";
 import * as Haptics from "expo-haptics";
@@ -265,7 +264,7 @@ const styles = StyleSheet.create({
   currentBadge: { backgroundColor: "rgba(255,255,255,0.2)", paddingHorizontal: 8, paddingVertical: 2, borderRadius: colors.radiusFull },
   currentBadgeText: { color: "#fff", fontSize: 10, fontFamily: "Poppins_600SemiBold" },
   planPrice: { color: colors.foreground, fontSize: 24, fontFamily: "Poppins_700Bold", marginBottom: 8 },
-  planPeriod: { fontSize: 13, fontFamily: "Poppins_400Regular", color: "rgba(255,255,255,0.7)" },
+  planPeriod: { fontSize: 13, fontFamily: "Poppins_400Regular", color: colors.mutedForeground },
   planFeatureRow: { flexDirection: "row", alignItems: "center", gap: 6 },
   planFeature: { color: colors.mutedForeground, fontSize: 12, fontFamily: "Poppins_400Regular", flex: 1 },
 

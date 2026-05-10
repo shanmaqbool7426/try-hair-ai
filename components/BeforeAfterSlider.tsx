@@ -113,10 +113,17 @@ const styles = StyleSheet.create({
     backgroundColor: colors.foreground,
     alignItems: "center",
     justifyContent: "center",
-    shadowColor: "#000",
-    shadowOpacity: 0.4,
-    shadowRadius: 8,
     elevation: 8,
+    ...Platform.select({
+      native: {
+        shadowColor: "#000",
+        shadowOpacity: 0.4,
+        shadowRadius: 8,
+      },
+      web: {
+        boxShadow: "0 2px 8px rgba(0,0,0,0.4)",
+      },
+    }),
   },
   handleArrows: {
     color: colors.background,

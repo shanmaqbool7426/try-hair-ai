@@ -5,6 +5,7 @@ import {
   StyleSheet,
   TouchableOpacity,
   Dimensions,
+  Platform,
 } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import colors from "@/constants/colors";
@@ -60,10 +61,17 @@ const styles = StyleSheet.create({
   },
   cardSelected: {
     borderColor: colors.primary,
-    shadowColor: colors.primary,
-    shadowOpacity: 0.4,
-    shadowRadius: 8,
     elevation: 8,
+    ...Platform.select({
+      native: {
+        shadowColor: colors.primary,
+        shadowOpacity: 0.4,
+        shadowRadius: 8,
+      },
+      web: {
+        boxShadow: `0 0 12px 2px ${colors.primary}66`,
+      },
+    }),
   },
   gradient: {
     height: CARD_WIDTH,
