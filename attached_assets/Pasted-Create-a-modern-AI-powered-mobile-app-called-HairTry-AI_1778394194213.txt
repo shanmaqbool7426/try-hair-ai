@@ -1,0 +1,122 @@
+Create a modern AI-powered mobile app called “HairTry AI” where users can upload a selfie and instantly preview realistic hairstyles, haircuts, beard styles, and hair colors using advanced AI image generation.
+
+TECH STACK:
+
+Frontend:
+
+* React Native + Expo
+* TypeScript
+* Redux Toolkit or Context API
+* React Navigation
+* Modern premium UI with smooth animations
+* Dark mode support
+
+Backend:
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* JWT Authentication
+* REST APIs
+* Cloudinary for image storage
+* Multer for image uploads
+* Socket.io for real-time processing updates
+* Redis caching for faster AI responses
+* Scalable production-ready architecture
+
+AI INTEGRATION:
+
+* Stable Diffusion / Flux models
+* Replicate API
+* OpenAI image models
+* MediaPipe face detection
+* AI segmentation models
+* Hair masking and face landmark detection
+* Realistic AI inpainting
+
+CORE FEATURES:
+
+* Upload photo from gallery or camera
+* AI detects face shape, head position, and hair area automatically
+* Generate ultra realistic hairstyles on the user’s face
+* Support male and female hairstyles
+* AI hairstyle recommendations based on:
+
+  * face shape
+  * beard style
+  * fashion trends
+  * facial structure
+* Hair color try-on:
+
+  * black
+  * brown
+  * blonde
+  * silver
+  * custom colors
+* Beard style try-on
+* Before / After comparison slider
+* Save and share generated looks
+* Hairstyle history
+* Trending hairstyle gallery
+* Barber / salon mode
+* Favorite styles collection
+* AI smart suggestions
+* Multiple hairstyle previews at once
+
+STYLE CATEGORIES:
+
+* Fade cuts
+* Taper fade
+* Curly hairstyles
+* Korean hairstyles
+* Pakistani hairstyles
+* Long hair
+* Buzz cut
+* Professional styles
+* Wedding styles
+* Modern beard styles
+
+BACKEND API MODULES:
+
+* Authentication APIs
+* User profile APIs
+* Image upload APIs
+* AI hairstyle generation APIs
+* Saved styles APIs
+* Subscription/payment APIs
+* History APIs
+* Trending styles APIs
+* Admin dashboard APIs
+
+DATABASE MODELS:
+
+* Users
+* Hairstyles
+* AI Generations
+* Saved Looks
+* Subscriptions
+* Barber Profiles
+* Analytics
+
+UI/UX DESIGN:
+
+* Premium futuristic design
+* Glassmorphism UI
+* Smooth transitions
+* TikTok-level modern experience
+* Fast loading
+* Responsive layouts
+* Clean minimal design
+
+MONETIZATION:
+
+* Free limited generations
+* Premium subscription
+* HD image exports
+* Unlimited hairstyle generations
+* Barber partnerships
+* Ads integration
+
+GOAL:
+Build a scalable, production-ready, ultra realistic AI hairstyle try-on mobile app with powerful AI rendering, modern UX, and professional-quality hairstyle previews that help users test new looks before visiting a barber or salon.

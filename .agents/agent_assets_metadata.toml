@@ -1,0 +1,32 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "U56T2BAg5AHDo3CrumGll"
+uri = "file://assets/images/icon.png"
+type = "image"
+title = "hairTry AI app icon"
+
+[[generated]]
+id = "LP3bMaTkF-DxWihOo8-Th"
+uri = "file://assets/images/splash.png"
+type = "image"
+title = "hairTry splash screen"
+
+[[generated]]
+id = "d5gU6AovJLdP1YfGmdIH5"
+uri = "file://assets/images/hero-banner.png"
+type = "image"
+title = "hairstyle gallery banner"
+
+[[generated]]
+id = "hdLoXRggygUk-016fv9Wk"
+uri = "file://assets/images/trending-male.png"
+type = "image"
+title = "trending male hairstyle"
+
+[[generated]]
+id = "7miIhDlP525K4Wpubso6D"
+uri = "file://assets/images/trending-female.png"
+type = "image"
+title = "trending female hairstyle"

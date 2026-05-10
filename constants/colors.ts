@@ -1,0 +1,32 @@
+const colors = {
+  background: "#0A0A0F",
+  card: "#13131A",
+  cardElevated: "#1A1A24",
+  border: "#1E1E2E",
+  borderLight: "#2A2A3E",
+  primary: "#7C4DFF",
+  primaryLight: "#9D70FF",
+  primaryDark: "#5C30E0",
+  accent: "#00E5FF",
+  accentDim: "#00B8CC",
+  foreground: "#FFFFFF",
+  foregroundMuted: "#C0C0D8",
+  mutedForeground: "#8A8AA0",
+  muted: "#1E1E2E",
+  destructive: "#FF4444",
+  success: "#00E676",
+  warning: "#FFB300",
+  gradient: {
+    primary: ["#7C4DFF", "#5C30E0"] as [string, string],
+    accent: ["#00E5FF", "#7C4DFF"] as [string, string],
+    dark: ["#13131A", "#0A0A0F"] as [string, string],
+    card: ["#1A1A24", "#13131A"] as [string, string],
+    hero: ["#0A0A0F", "#1A0A2E"] as [string, string],
+  },
+  radius: 16,
+  radiusSm: 10,
+  radiusLg: 24,
+  radiusFull: 9999,
+};
+
+export default colors;

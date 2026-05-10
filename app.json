@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "HairTry AI",
+    "slug": "hairtry-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "hairtry",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hairtryai.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "HairTry AI needs camera access to take your selfie for hairstyle try-on",
+        "NSPhotoLibraryUsageDescription": "HairTry AI needs photo access to select your selfie for hairstyle try-on"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#0A0A0F"
+      },
+      "package": "com.hairtryai.app",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#0A0A0F"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "HairTry AI needs photo access to select your selfie",
+          "cameraPermission": "HairTry AI needs camera access to take your selfie"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
